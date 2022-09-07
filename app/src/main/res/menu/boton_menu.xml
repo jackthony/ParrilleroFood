@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mainActivity"
+        android:icon="@drawable/ic_home"
+        android:title="Inicio"/>
+    <item
+        android:id="@+id/categoriastActivity"
+        android:icon="@drawable/ic_categorias"
+        android:title="Categorias" />
+    <item
+        android:id="@+id/foodActivity"
+        android:icon="@drawable/ic_platos"
+        android:title="Platos" />
+    <item
+        android:id="@+id/ubicacionActivity"
+        android:icon="@drawable/ic_ubicacion"
+        android:title="Ubicacion" />
+</menu>

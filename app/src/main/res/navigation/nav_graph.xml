@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainActivity"
+    >
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.parrillerofood.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+
+    <activity
+        android:id="@+id/categoriastActivity"
+        android:name="com.example.parrillerofood.CategoriaActivity"
+        android:label="activity_categorias"
+        tools:layout="@layout/activity_categoria" />
+
+    <activity
+        android:id="@+id/foodActivity"
+        android:name="com.example.parrillerofood.FoodActivity"
+        android:label="activity_food"
+        tools:layout="@layout/activity_food" />
+
+    <activity
+        android:id="@+id/ubicacionActivity"
+        android:name="com.example.parrillerofood.UbicacionActivity"
+        android:label="activity_ubicacion"
+        tools:layout="@layout/activity_ubicacion" />
+
+</navigation>
